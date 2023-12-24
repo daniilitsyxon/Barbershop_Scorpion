@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop Scorpion</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script>
+        SmoothScroll({
+
+            animationTime: 800,
+
+            stepSize: 75,
+
+
+            accelerationDelta: 30,
+
+            accelerationMax: 2,
+
+            // Поддержка клавиатуры
+            keyboardSupport: true,
+            // Шаг скролла стрелками на клавиатуре в пикселях
+            arrowScroll: 50,
+
+            // Pulse (less tweakable)
+            // ratio of "tail" to "acceleration"
+            pulseAlgorithm: true,
+            pulseScale: 4,
+            pulseNormalize: 1,
+
+            // Поддержка тачпада
+            touchpadSupport: true,
+        })
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li class="nav__items-item"><a href="#price">ЦЕНЫ</a></li>
+                    <li class="nav__items-item"><a href="#barbers">БАРБЕРЫ</a></li>
+                    <li class="nav__items-item"><a href="#about">О НАС</a></li>
+                    <li class="nav__items-item"><a href="#">ФРАНШИЗА</a></li>
+                    <li class="nav__items-item"><a href="#contact">КОНТАКТЫ</a></li>
+                </ul>
+                <div class="login">
+                    <a href="#" class="login__text">
+                        <img src="img/login.svg" alt="login">
+                        <span>ВХОД</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__logo">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="main__desc">
+            <div class="container">
+                <div class="desc__wrapper">
+                    <div class="desc__block">
+                        <div class="desc__title">БЫСТРО</div>
+                        <img src="img/square.png" alt="">
+                        <p class="desc__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО. СРЕДНЕЕ ВРЕМЯ СТРИЖКИ <br>— 45 МИНУТ.</p>
+                    </div>
+                    <div class="desc__block middle">
+                        <div class="desc__title">СТИЛЬНО</div>
+                        <img src="img/square.png" alt="">
+                        <p class="desc__text">МЫ СОЗДАЕМ ИНДИВИДУАЛЬНЫЙ СТИЛЬ КАЖДОМУ, ИСХОДЯ ИЗ ВАШИХ ПРЕДПОЧТЕНИЙ.</p>
+                    </div>
+                    <div class="desc__block">
+                        <div class="desc__title">КРУТО</div>
+                        <img src="img/square.png" alt="">
+                        <p class="desc__text">НАШИ МАСТЕРА ИСПОЛЬЗУЮТ ТОЛЬКО ПРОФЕССИОНАЛЬНЫЕ ИНСТРУМЕНТЫ И КОСМЕТИКУ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="price" class="main__price">
+            <div class="container">
+
+                <div class="section__title">Услуги и цены</div>
+                <div class="price__block">
+                    <div class="services">
+                        <p class="service">Мужская стрижка</p>
+                        <p class="price">1500 руб.</p>
+                    </div>
+                    <div class="services">
+                        <p class="service">Стрижка под машинку</p>
+                        <p class="price">700 руб.</p>
+                    </div>
+                    <div class="services">
+                        <p class="service">Мытье головы и укладка</p>
+                        <p class="price">500 руб.</p>
+                    </div>
+                    <div class="services">
+                        <p class="service">Стрижка под машинку</p>
+                        <p class="price">700 руб.</p>
+                    </div>
+                    <div class="services">
+                        <p class="service">Оформление бороды</p>
+                        <p class="price">800 руб.</p>
+                    </div>
+                    <div class="services">
+                        <p class="service">Стрижка + Борода</p>
+                        <p class="price">2000 руб.</p>
+                    </div>
+                </div>
+        </section>
+        <section class="main__barbers" id="barbers">
+            <div class="container">
+                <div class="section__title">Наши барберы</div>
+                <div class="barbers__wrapper">
+                    <div class="singlebarber">
+                        <img src="https://avatars.mds.yandex.net/get-altay/922263/2a00000186e0e403b6fa741da6b4bec00eae/XXL_height"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 1</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://kartinki.pibig.info/uploads/posts/2023-04/1682072515_kartinki-pibig-info-p-barbershop-kartinki-arti-krasivo-9.jpg"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 2</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://mykaleidoscope.ru/uploads/posts/2023-10/1696337755_mykaleidoscope-ru-p-cherno-belaya-pricheska-pinterest-69.jpg"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 3</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://polinka.top/uploads/posts/2023-06/thumbs/1685627461_polinka-top-p-barber-kartinki-vkontakte-32.jpg"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 4</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://avatars.mds.yandex.net/get-altay/922263/2a00000186e0e403b6fa741da6b4bec00eae/XXL_height"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 5</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://avatars.mds.yandex.net/get-altay/922263/2a00000186e0e403b6fa741da6b4bec00eae/XXL_height"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 6</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://avatars.mds.yandex.net/get-altay/922263/2a00000186e0e403b6fa741da6b4bec00eae/XXL_height"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 7</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+                    <div class="singlebarber">
+                        <img src="https://avatars.mds.yandex.net/get-altay/922263/2a00000186e0e403b6fa741da6b4bec00eae/XXL_height"
+                            alt="">
+                        <div class="singlebarber__info">
+                            <div class="singlebarber__name">Барбер 8</div>
+                            <button>Записаться</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="main__about" id="about">
+            <div class="container">
+                <div class="section__title">О нас</div>
+                <div class="about__text">
+                    <span class="bold">Scorpion</span> — это территория мужчин, которые ценят
+                    профессионализм,
+                    высокое качество сервиса, время и безупречный вид. Это не
+                    просто
+                    барбершоп, это
+                    мужской клуб, место встреч друзей и знакомых, где можно говорить на любые темы, за чашкой чая, кофе
+                    или стаканчиком виски. Мы рады всем и каждому.
+                    <div class="about__title">Приходя к нам, мы гарантируем тебе:</div>
+                    <div class="about__point">1. Идеальную стрижку</div>
+                    <div class="about__point">2. Вкусный чай или кофе</div>
+                    <div class="about__point">3. Прекрасную атмосферу</div>
+                    <div class="about__point">4. Желание снова вернуться к нам</div>
+                </div>
+            </div>
+        </section>
+        <section class="main__contacts" id="contact">
+            <div class="container">
+                <div class="section__title">Контакты</div>
+            </div>
+            <div class="container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.282634630194!2d37.621476367832074!3d55.75359229305261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a598b4552fd%3A0xd2f2265b70fe6a05!2z0JPQo9Cc!5e0!3m2!1sru!2sru!4v1703185628498!5m2!1sru!2sru"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contacts__info">
+                    <div class="contacts__title">Телефон для записи:</div>
+                    <div class="contacts__text">+7 (111) 11-11-11</div>
+                    <button class="contacts__button">Записаться онлайн</button>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <footer class="footer">
+
+            <div class="footer__wrapper">
+                <div class="footer__block">
+                    <img class="footer__logo" src="img/logo.png" alt="logo">
+                    <div class="footer__text">Место, где зарождаются чудеса.</div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">Меню</div>
+                    <div class="footer__text">
+                        <a href="#price">Цены</a>
+                        <a href="#barbers">Барберы</a>
+                        <a href="#about">О нас</a>
+                        <a href="">Франшиза</a>
+                        <a href="#contact">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">Мы в соцсетях</div>
+                    <div class="footer__links">
+                        <a href="#">
+                            <img class="footer__links-img" src="img/vk.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer__links-img" src="img/instagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+
+</body>
+
+</html>
