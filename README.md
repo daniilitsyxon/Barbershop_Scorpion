@@ -1,3 +1,3 @@
 ## Link
 
-https://daniilitsyxon.github.io/Barbershop_Scorpion/
+https://itsyxon.github.io/Barbershop_Scorpion/
